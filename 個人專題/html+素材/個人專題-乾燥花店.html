@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>likelife website</title>
+
+    <style>
+        body{
+            font-family:微軟正黑體;
+            position: relative
+        }
+
+        p{
+            font-size:14px;
+            color: #525050;
+            line-height: 30px;
+        }
+
+        .kv-backgroundimg{
+            height:100%;
+            width:100%; 
+            max-width:1140px;                  
+            background-image:url('./素材/KV-ok.png');
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .posi-ab{
+            position: absolute
+        }
+
+        .kv-logo{
+            top:150px;
+            right:150px;
+            width: 180px; 
+        }
+
+        .section-title{
+            color:#6e5745;
+            font-weight:bold;
+            padding: 20px 0px;
+            border-bottom: solid 2px #ffc08d;
+            text-align: center
+
+        }
+
+        .section-bg-orange{
+            width: 100%;
+            height: 700px;
+            background-color: #ffecdc;
+            padding: 100px 0px
+        }
+
+        .container{
+            max-width: 1140px
+
+        }
+
+        .flex-box-center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .flex-box-center-2{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .product-type-title{
+            color:#525050;
+            text-align:center;
+            margin-top: 10px;
+            letter-spacing: 2px
+        }
+
+        .bg-opacity-white{
+            height:100%;
+            width: 100%;
+            background-color: rgba(255,255,255,0.5);
+            position:absolute;
+            margin:0px;
+            padding:0px
+
+        }
+
+        .class-title{
+            color:#525050;
+            padding-top:5px;
+            padding-left:5px
+        }
+
+        .nav li a{
+            color:#525050;
+            padding:0px;
+            padding-bottom:2px;
+            margin-left:30px ;
+            
+        }
+
+        .nav li a:hover{
+            color:#764824;
+            border-bottom: solid 5px #ffc08d;
+            padding: 0px 
+        }
+
+        .product-type-img-hover:hover{
+            opacity:0.7;
+            
+        }
+
+    
+    
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header" style="position:fixed;background-color:white;width:100%;z-index:999">
+        <div class="container" >
+            <nav class="navbar bg-wight nav-light" style="height:70px;padding:0px">
+                    <a class="navbar-brand" href="#"><img src="./素材/logo-1.png" alt="logo" style="height:60px"></a>
+                    <ul class="nav justify-content-end" >
+                        <li class="nav-item"><a class="nav-link" href="#section2-aboutus">關於我們</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section3-products">乾燥花商品</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section4-class">花藝課程</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#section5-info">店家資訊</a></li>
+                    </ul>
+            </nav> 
+        </div>
+    </header>
+
+
+    <!-- section1 landing -->
+    <section id="section1-landing">
+        <div style="height:700px ">
+            <div class="container" style="height:100% ;background-color:#aaa;padding:0px">
+                <div class="kv-backgroundimg ">
+                <!-- <div style="height:800px; width:100%;">
+                    <img src="./素材/KV-翻轉墊白ok.png" alt="KV" class="img-fluid" style="transform:scale(2);margin:100px">
+                </div> -->
+                    <div class="posi-ab kv-logo">
+                        <img src="./素材/logo2-加乾燥花字.png" alt="logo2" class="img-fluid">
+                    </div>
+                </div> 
+            </div>
+        </div>
+   
+    </section>
+
+    <!-- section2 about us --> 
+    <section id="section2-aboutus">
+        <div class="section-bg-orange" >
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-7 ">
+                        <div style="position:relative;top:10%;left:10%"> 
+                            <div style="position:absolute;
+                            width:440px;height:440px;background-color:#ffd1ab;top:25px;left:-25px"></div>
+                            <div style="position:absolute;width:70%">
+                                <img src="./素材/形象3.jpg" alt="shop" class="img-fluid"  >
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 position:relative">
+                        <div style="width:80%;position:absolute;top:25%;right:20%">
+                            <h5 class="section-title">關於我們</h5>
+                            <div style="border-bottom: solid 2px #ffc08d;
+                                padding: 20px 0px">
+                                <p>喜歡生活乾燥花店成立於2016年春天，創立於台北中山區
+                                    喜歡生活設計團隊主要以『花藝』、『溫度』、兩大面向為創作思考
+                                    我們希望每一位顧客能藉由花藝，傳遞想表達的情感與溫度
+                                    喜歡生活融合了韓式與日式多元的花藝精神與設計。
+                                </p>
+                                <p>
+                                    希望將花藝與生活做結合，<br>
+                                    造就「生活就是花藝，花藝就是生活」的全新理念。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        
+        
+        
+        </div>
+    </section>
+
+    <!-- section3 products --> 
+    <section id="section3-products">
+        <div class="container " style="height:700px">
+            <div class="row" style="height:100px;margin-top:150px">
+                <div class="col-md-4"></div> 
+                <div class="col-md-4">
+                    <h5 class="section-title" >乾燥花商品</h5>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div style="height:350px;display:flex">
+                <div class="row " style="box-sizing:border-box;align-self:center">
+                    <div class="col-md-3" >
+                        <div style="width:90%">
+                            <img src="./素材/商品-小花束3.jpg" alt="pic1" class="img-fluid product-type-img-hover">
+                            <h6 class="product-type-title">乾燥花花束</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div style="width:90%">
+                            <img src="./素材/商品-盆栽大1.jpg" alt="pic2" class="img-fluid product-type-img-hover">
+                            <h6 class="product-type-title">乾燥花盆栽</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div style="width:90%">
+                            <img src="./素材/商品-大花束6.jpg" alt="pic2" class="img-fluid product-type-img-hover">
+                            <h6 class="product-type-title">韓式巨大花束</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div style="width:90%">
+                            <img src="./素材/商品-捧花1.jpg" alt="pic2" class="img-fluid product-type-img-hover">
+                            <h6 class="product-type-title">新娘捧花</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        
+        </div>
+    </section>
+
+    <!-- section4 class --> 
+    <section id="section4-class">
+        <div class="section-bg-orange" >
+            <div class="container" style="height:800px">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div style="width:80%">
+                            <h5 class="section-title" style="text-align:left;margin-bottom:60px">花藝課程</h5>
+                            <p style="line-height:1.6em">乾燥花手作課程，<br>
+                                每月份不定期開班，小班制教學，由喜歡生活花藝設計團隊親自上課，
+                                體驗手作的溫度與花藝的美好時光
+                            </p>
+                            <img src="./素材/課程3.jpg" alt="class" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-opacity-white" style="padding:0px 20px;top:-100px; height:calc(100% + 200px)">
+                            <h5 style="color:#8d8d8d;text-align:center;padding-top:50px;margin-bottom:40px">近期課程</h5>
+                            <div class="row">
+                                <div class="col-md-6" style="padding:0px">
+                                    <div style="padding:0px">
+                                        <div style="width:90%;height:90%;margin:auto;border:solid 5px #ffd1ab;position:relative">
+                                            <div class="posi-ab" style="width:100%;background-color: rgba(255,255,255,0.7)">
+                                                <h6 class="class-title">2月｜乾燥花圈</h6>
+                                            </div>
+                                            <img src="./素材/形象11.jpg" alt="花圈" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding:0px">
+                                    <div style="padding:0px">
+                                        <div style="width:90%;height:90%;margin:auto;border:solid 5px #ffd1ab;position:relative">
+                                            <div class="posi-ab" style="width:100%;background-color: rgba(255,255,255,0.7)">
+                                                <h6 class="class-title">2月｜乾燥花胸花</h6>
+                                            </div>
+                                            <img src="./素材/課程-類別3.jpg" alt="花圈" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6" style="padding:0px;margin:0px">
+                                    <div style="padding:0px;margin:0px">
+                                        <div style="width:90%;height:90%;margin:auto;border:solid 5px #ffd1ab;position:relative">
+                                            <div class="posi-ab" style="width:100%;background-color: rgba(255,255,255,0.7)">
+                                                <h6 class="class-title">3月｜韓式乾燥花束</h6>
+                                            </div>
+                                            <img src="./素材/課程-類別4.jpeg" alt="花圈" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6" style="padding:0px">
+                                    <div style="padding:0px">
+                                        <div style="width:90%;height:90%;margin:auto;border:solid 5px #ffd1ab;position:relative">
+                                            <div class="posi-ab" style="width:100%;background-color: rgba(255,255,255,0.7)">
+                                                <h6 class="class-title">3月｜乾燥花植物標本</h6>
+                                            </div>
+                                            <img src="./素材/課程-類別1.jpg" alt="花圈" class="img-fluid ">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section5 info --> 
+    <section id="section5-info">
+        <div class="container" style="height:700px">
+            <div class="row" style="padding-top:80px;padding-bottom:40px">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h5 class="section-title">店家資訊</h5>
+                </div>
+                <div class="col-md-4"></div>
+
+            </div>
+            
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 flex-box-center">
+                    <div>
+                        <div style="width:70%;margin-bottom:30px">
+                            <img src="./素材/形象5-切.png" alt="shop" class="img-fluid">
+                        </div>
+                        <p style="line-height:2em">【營業時間】<br>
+                            星期一 ～ 星期五：14:00 – 20:00<br>
+                            星期六 & 星期日：13:00 – 21:30
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-5 flex-box-center">
+                    <div class="posi-ab" style="margin-top:0px ;margin-right:0px">
+                        <div style="width:70%;margin-bottom:30px">
+                            <img src="./素材/店家資訊-地圖-切.png" alt="map" class="img-fluid">
+                        </div>
+                        <p style="line-height:2em">【地址】台北市中山區合江街130巷16號6號<br>
+                            （捷運行天宮站三號出口,步行5分鐘）<br>
+                            【電話】0900-053-901 (預約來店看花)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div style="background-color:#ffd1ab;height:80px">
+        <div class="row">
+            <div class="col-md-2 m-auto" >
+                <img src="./素材/logo-1.png" alt="logo" class="img-fluid" style="width:70%">
+            </div>
+        </div>
+    
+    </div>
+
+    
+
+
+
+
+
+    
+</body>
+</html>
