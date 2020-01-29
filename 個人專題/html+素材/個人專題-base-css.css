@@ -1,0 +1,1296 @@
+body{
+  font-family:微軟正黑體;
+  position: relative
+}
+
+p{
+  font-size:14px;
+  color: #525050;
+  line-height: 30px;
+}
+
+
+.posi-ab{
+  position: absolute
+}
+
+
+
+.section-title{
+  color:#6e5745;
+  font-weight:bold;
+  padding: 20px 0px;
+  border-bottom: solid 2px #ffc08d;
+  text-align: center
+
+}
+
+.section-bg-orange{
+  width: 100%;
+  height: 100%;
+  background-color: #ffecdc;
+  padding: 100px 0px
+}
+
+.section-bg-white{
+  width: 100%;
+  height: 100%;
+  background-color:white;
+  padding: 100px 0px
+}
+
+.container{
+  max-width: 1140px
+
+}
+
+.flex-box-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-box-center-2{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-type-title{
+  color:#525050;
+  text-align:center;
+  margin-top: 10px;
+  letter-spacing: 2px
+}
+
+.bg-opacity-white{
+  height:100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.5);
+  position:absolute;
+  margin:0px;
+  padding:0px
+
+}
+
+.class-title{
+  color:#525050;
+  padding-top:5px;
+  padding-left:5px
+}
+
+.nav li a{
+  color:#525050;
+  padding:0px;
+  padding-bottom:2px;
+  margin-left:30px ;
+  
+}
+
+.nav li a:hover{
+  color:#764824;
+  border-bottom: solid 5px #ffc08d;
+  padding: 0px 
+}
+
+.product-type-hover:hover img{
+  opacity:0.7;
+}
+
+.product-type-hover:hover h6{
+  font-weight:550;
+  color:#764824
+}
+
+.product-type-hover img{
+  transition-duration:0.3s;
+  transition-timing-function:ease
+}
+
+/* header fix style */
+.header_fix {
+  position:fixed;
+  background-color:white;
+  width:100%;
+  z-index:999;
+}
+
+/* navbar */
+.nav-collapse-style{
+  text-align:right;
+  
+}
+
+
+
+
+/* width 1200px 以上樣板 */
+@media  screen and (min-width :1200px){
+
+
+  /* section1 */
+  .sec1{
+    height:120vh
+  }
+
+  .kv-backgroundimg{
+    height:100%;
+    width:100%; 
+    max-width:1140px;                  
+    background-image:url('./素材/KV-ok.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .kv-logo{
+    top:130px;
+    right:150px;
+    width: 180px; 
+  }
+
+
+
+  /* section 2 */
+  .sec2{
+    height:120vh
+  }
+
+  .sec2Img{
+    position:relative;
+    top:10%;
+    left:10%;
+  }
+
+  .sec2Img .backgroundArea{
+    position:absolute;
+    top:25px;
+    left:-25px;
+    width:70%;
+  }
+
+  .sec2Img .backgroundArea div{
+    background-color: #ffd1ab;
+    max-width: 100%;
+    height: 440px;
+  }
+
+  .sec2Img .imgArea{
+    position:absolute;
+    width:70%;
+  }
+
+  .sec2Des{
+    width:80%;
+    position:absolute;
+    top:25%;
+    right:20%;
+  }
+
+  .sec2Des .content{
+    border-bottom: solid 2px #ffc08d;
+    padding: 20px 0px;
+  }
+
+
+
+  /* section3 */
+  .sec3{
+    padding-right:50px;
+    padding-left:50px;
+    position:relative;
+    height:100%
+  }
+
+  .title-row{
+    height:15vh;
+    width:100%;
+    box-sizing:border-box
+  }
+
+  .product-type-box{
+    height:80vh;
+    width:100%;
+    position:relative;
+    
+  }
+
+  .product-type-row{
+    height:40vh;
+    width:100%;
+    top:10%;
+    position:relative;
+    margin:0 auto
+
+  }
+
+  .product-type-div{
+    width:90% ;
+    position:absolute
+  }
+
+
+  /* section4 */
+  .sec4{
+    position:relative;
+    height:120vh
+  }
+
+  .class-block2-title{
+    color:#8d8d8d;
+    text-align:center;
+    padding-top:50px;
+    margin-bottom:40px
+  }
+
+  .class-block1-box{
+    width:70%;
+    position:absolute;
+    left:10%;
+    height:120vh
+  
+  }
+
+  .class-block2-box{
+    position:relative;
+    width:100%
+  }
+
+  .class-block2-innerbox{
+    width:80%;
+    position:absolute;
+    left:10%;
+    top:15%;
+    
+  }
+
+  .class-type-box{
+    position:absolute
+  }
+
+  .class-type-row{
+    height:35vh
+  }
+
+  .class-type-row-1{
+    margin-bottom:20px
+  }
+
+  .class-whitebg{
+    padding:0px 20px;
+    top:-100px; 
+    height:120vh
+  }
+
+  .class-hover:hover div.change-text{
+    padding:10px 0;
+    width:100%;
+    top:30%;
+    background-color: rgba(255,255,255,0.9)
+  }
+
+
+
+  /* section5 */
+  .sec5{
+    height:130vh
+  }
+
+  .title-row{
+    height:15vh;
+    width:100%;
+    padding:0px
+  }
+
+  .info-all-box{
+    height:100vh;
+    width:100%;
+    position:relative;
+    padding:0 30px;
+    margin-top:5vh
+  }
+
+  .info-row{
+    height:80vh;
+    width:100%;
+    position:relative;
+    top:5%
+
+  }
+
+  .info-box{
+    position:absolute;
+  
+
+  }
+
+  .info-img{
+    width:70%;
+    margin-bottom:30px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-text{
+    line-height:2em;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  /* footer */
+  .footer-bg{
+    background-color:#ffd1ab; 
+    height: 60px; 
+    position:relative;
+    bottom:0px
+  }
+
+  .footer-img{
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5px
+
+  }
+}
+
+
+
+/* width 992-1200px 樣板 */
+@media  screen and (max-width :1200px){
+
+
+  /* section1 */
+  .sec1{
+    height:120vh
+  }
+
+  .kv-backgroundimg{
+    height:100%;
+    width:100%; 
+    max-width:1140px;                  
+    background-image:url('./素材/KV-ok.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .kv-logo{
+    top:130px;
+    right:150px;
+    width: 180px; 
+  }
+
+
+
+  /* section 2 */
+  .sec2{
+    height:120vh
+  }
+
+  .sec2Img{
+    position:relative;
+    top:10%;
+    left:10%;
+  }
+
+  .sec2Img .backgroundArea{
+    position:absolute;
+    top:25px;
+    left:-25px;
+    width:70%;
+  }
+
+  .sec2Img .backgroundArea div{
+    background-color: #ffd1ab;
+    max-width: 100%;
+    height: 440px;
+  }
+
+  .sec2Img .imgArea{
+    position:absolute;
+    width:70%;
+  }
+
+  .sec2Des{
+    width:80%;
+    position:absolute;
+    top:25%;
+    right:20%;
+  }
+
+  .sec2Des .content{
+    border-bottom: solid 2px #ffc08d;
+    padding: 20px 0px;
+  }
+
+
+
+  /* section3 */
+  .sec3{
+    padding-right:50px;
+    padding-left:50px;
+    position:relative;
+    height:100%;
+    height:100vh
+  }
+
+  .title-row{
+    height:15vh;
+    width:100%;
+    box-sizing:border-box
+  }
+
+  .product-type-box{
+    height:60vh;
+    width:100%;
+    position:relative;
+    
+  }
+
+  .product-type-row{
+    height:40vh;
+    width:100%;
+    top:10%;
+    position:relative;
+    margin:0 auto
+
+  }
+
+  .product-type-div{
+    width:90% ;
+    position:absolute
+  }
+
+
+  /* section4 */
+  .sec4{
+    position:relative;
+    height:120vh
+  }
+
+  .class-block2-title{
+    color:#8d8d8d;
+    text-align:center;
+    padding-top:50px;
+    margin-bottom:40px
+  }
+
+  .class-block1-box{
+    width:70%;
+    position:absolute;
+    left:10%;
+    height:120vh
+  
+  }
+
+  .class-block2-box{
+    position:relative;
+    width:100%
+  }
+
+  .class-block2-innerbox{
+    width:80%;
+    position:absolute;
+    left:10%;
+    top:15%;
+    
+  }
+
+  .class-type-box{
+    position:absolute
+  }
+
+  .class-type-row{
+    height:35vh
+  }
+
+  .class-type-row-1{
+    margin-bottom:20px
+  }
+
+  
+
+  .class-whitebg{
+    padding:0px 20px;
+    top:-100px; 
+    height:120vh
+  }
+
+  .class-hover:hover div.change-text{
+    padding:10px 0;
+    width:100%;
+    top:30%;
+    background-color: rgba(255,255,255,0.9)
+  }
+
+
+
+  /* section5 */
+  .sec5{
+    height:120vh
+  }
+
+  .title-row{
+    height:15vh;
+    width:100%;
+    padding:0px
+  }
+
+  .info-all-box{
+    height:100vh;
+    width:100%;
+    position:relative;
+    padding:0 30px
+  }
+
+  .info-row{
+    height:80vh;
+    width:100%;
+    position:relative;
+    top:5%
+
+  }
+
+  .info-box{
+    position:absolute;
+  
+
+  }
+
+  .info-img{
+    width:70%;
+    margin-bottom:30px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-text{
+    line-height:2em;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  /* footer */
+  .footer-bg{
+    background-color:#ffd1ab; 
+    height: 60px; 
+    position:relative;
+    bottom:0px
+  }
+
+  .footer-img{
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5px
+
+  }
+}
+
+
+
+
+/* width 768-992px 樣板 */
+@media  screen and (max-width :992px){
+  /* section1 */
+  .sec1{
+    height:120vh
+  }
+
+  .kv-backgroundimg{
+    height:100%;
+    width:100%; 
+    max-width:1140px;                  
+    background-image:url('./素材/KV-ok.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .kv-logo{
+    top:130px;
+    right:150px;
+    width: 180px; 
+  }
+
+
+
+  /* section 2 */
+  .sec2{
+    height:100vh
+  }
+
+  .sec2Img{
+    position:relative;
+    top:10%;
+    left:10%;
+  }
+
+  .sec2Img .backgroundArea{
+    position:absolute;
+    top:25px;
+    left:-25px;
+    width:70%;
+  }
+
+  .sec2Img .backgroundArea div{
+    background-color: #ffd1ab;
+    max-width: 100%;
+    height: 350px;
+  }
+
+  .sec2Img .imgArea{
+    position:absolute;
+    width:70%;
+  }
+
+  .sec2Des{
+    width:80%;
+    position:absolute;
+    top:25%;
+    right:20%;
+  }
+
+  .sec2Des .content{
+    border-bottom: solid 2px #ffc08d;
+    padding: 20px 0px;
+  }
+
+
+
+  /* section3 */
+  .sec3{
+    padding-right:50px;
+    padding-left:50px;
+    position:relative;
+    height:100%;
+    height:100vh
+  }
+
+  .title-row{
+    height:15vh;
+    width:100%;
+    box-sizing:border-box
+  }
+
+  .product-type-box{
+    height:60vh;
+    width:100%;
+    position:relative;
+    
+  }
+
+  .product-type-row{
+    height:40vh;
+    width:100%;
+    top:10%;
+    position:relative;
+    margin:0 auto
+
+  }
+
+  .product-type-div{
+    width:90% ;
+    position:absolute
+  }
+
+
+  /* section4 */
+  .sec4{
+    position:relative;
+    height:110vh
+  }
+
+  .class-block2-title{
+    color:#8d8d8d;
+    text-align:center;
+    padding-top:50px;
+    margin-bottom:40px
+  }
+
+  .class-block1-box{
+    width:70%;
+    position:absolute;
+    left:10%;
+    height:120vh
+  
+  }
+
+  .class-block2-box{
+    position:relative;
+    width:100%
+  }
+
+  .class-block2-innerbox{
+    width:80%;
+    position:absolute;
+    left:10%;
+    top:15%;
+    
+  }
+
+  .class-type-box{
+    position:absolute
+  }
+
+  .class-type-row{
+    height:25vh
+  }
+
+  .class-type-row-1{
+    margin-bottom:10px
+  }
+
+  .class-whitebg{
+    padding:0px 20px;
+    top:-100px; 
+    height:120vh
+  }
+
+  .class-hover:hover div.change-text{
+    padding:10px 0;
+    width:100%;
+    top:30%;
+    background-color: rgba(255,255,255,0.9)
+  }
+
+
+
+  /* section5 */
+  .sec5{
+    height:110vh
+  }
+
+  .title-row{
+    height:15vh;
+    width:100%;
+    padding:0px
+  }
+
+  .info-all-box{
+    height:80vh;
+    width:100%;
+    position:relative;
+    padding:0 30px
+  }
+
+  .info-row{
+    height:40vh;
+    width:100%;
+    position:relative;
+    top:5%
+
+  }
+
+  .info-box{
+    position:absolute;
+  
+
+  }
+
+  .info-img{
+    width:70%;
+    margin-bottom:30px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-text{
+    line-height:2em;
+    width:70%;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  /* footer */
+  .footer-bg{
+    background-color:#ffd1ab; 
+    height: 60px; 
+    position:relative;
+    bottom:0px
+  }
+
+  .footer-img{
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5px
+
+  }
+}
+
+
+
+
+
+/* width 576-768px 樣板 */
+@media  screen and (max-width : 768px) { 
+    /* section1 */
+  .sec1{
+    height:120vh
+  }
+
+  .kv-backgroundimg{
+    height:100%;
+    width:100%; 
+    max-width:1140px;                  
+    background-image:url('./素材/KV-ok.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .kv-logo{
+    top:37vh;
+    right:32vw;
+    width: 200px; 
+  }
+
+
+
+
+
+  /* section2 */
+  .sec2{
+    height: 180vh;
+  }
+  .sec2Img{
+    height: 75vw;
+    width: 80%;
+    top:0;
+  }
+
+  .sec2Img .backgroundArea{
+    width: 100%;
+  }
+
+  .sec2Img .backgroundArea div{
+    height: 75vw;
+  }
+
+  .sec2Img .imgArea{
+    width: 100%;
+  }
+
+  .sec2Des{
+    position: relative;
+    height: 75vw;
+    top:15vh;
+    left:10%;
+  }
+
+
+
+
+  /* section3 */
+  .sec3{
+    height: 350vh;
+  }
+
+
+  .sec3-title-row{
+    height:15vh;
+    box-sizing:border-box
+  }
+
+  .product-type-box{
+    height:300vh;
+    width:100%;
+    position:relative;
+    display:flex;
+    text-align:center
+ 
+  }
+
+  .product-type-row{
+    height:100% ;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    top:5%;
+    left:10vw
+    
+  }
+
+  .product-type-div{
+    width:70% ;
+    position:absolute;
+    margin-bottom:40px;
+    
+ 
+  }
+
+
+    /* section4 */
+  .sec4{
+    position:relative;
+    height:360vh
+  }
+
+  .class-block1-box{
+    width:70%;
+    position:relative;
+    left:12%;
+    height:90vh;
+    margin-right:auto;
+  
+  }
+
+  .class-block2-title{
+    color:#8d8d8d;
+    text-align:center;
+    padding-top:20px;
+    margin-bottom:40px
+  }
+
+  .class-block2-box{
+    position:absolute;
+    width:70%;
+    height:300vh;
+    top:20vh;
+    left:12%
+  }
+
+  .class-block2-innerbox{
+    width:70%;
+    position:absolute;
+    left:13%;
+    top:2%;
+    
+  }
+
+  .sec4-section-title{
+    text-align:left;
+    margin-bottom:40px
+  }
+
+  .class-type-box{
+    position:absolute;
+   
+  }
+
+  .class-type-row{
+    height:110vh;
+    
+  }
+
+  .class-type-row-1{
+    margin-bottom:5px
+  }
+
+  .class-whitebg{
+    padding:0px 20px;
+    top:-100px; 
+    height:100%
+  }
+
+
+    /* section5 */
+  .sec5{
+    height:200vh
+  }
+
+  .sec5-title-row{
+    height:15vh;
+    width:85%;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-all-box{
+    height:100%;
+    width:100%;
+    position:relative;
+  }
+
+  .info-row{
+    height:160vh;
+    width:100%;
+    position:relative;
+    top:5%;
+    left:16%
+
+  }
+
+  .info-box{
+    position:absolute;
+    width:70%;
+    margin-bottom:30px
+  
+  }
+
+  .info-img{
+    width:90%;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-text{
+    line-height:2em;
+    width:90%;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  /* footer */
+  .footer-bg{
+    background-color:#ffd1ab; 
+    height: 60px; 
+    position:relative;
+    bottom:0px;
+  }
+
+  .footer-img{
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    top:5px
+
+  }
+
+
+}
+
+
+
+
+/* width 576px 以下樣板 */
+@media  screen and (max-width : 576px) { 
+  /* section1 */
+  .sec1{
+    height:120vh
+  }
+
+  .kv-backgroundimg{
+    height:100%;
+    width:100%; 
+    max-width:1140px;                  
+    background-image:url('./素材/KV-ok.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .kv-logo{
+    top:37vh;
+    right:32vw;
+    width: 180px; 
+  }
+
+
+
+
+
+  /* section2 */
+  .sec2{
+    height: 100%;
+  }
+  .sec2Img{
+    height: 75vw;
+    width: 80%;
+    top:0;
+  }
+
+  .sec2Img .backgroundArea{
+    width: 100%;
+  }
+
+  .sec2Img .backgroundArea div{
+    height: 74vw;
+  }
+
+  .sec2Img .imgArea{
+    width: 100%;
+  }
+
+  .sec2Des{
+    position: relative;
+    height: 75vw;
+    top:40px;
+    left:10%;
+  }
+
+
+
+
+  /* section3 */
+  .sec3{
+    height: 100%;
+  }
+
+
+  .sec3-title-row{
+    height:18vh;
+    box-sizing:border-box
+  }
+
+  .product-type-box{
+    height:220vh;
+    width:100%;
+    position:relative;
+    display:flex;
+    text-align:center
+  
+  }
+
+  .product-type-row{
+    height:100% ;
+    width:100%;
+    left:8%;
+    top:5%
+    
+  }
+
+  .product-type-div{
+    width:80% ;
+    position:absolute;
+    margin-bottom:20px;
+  
+  }
+
+
+    /* section4 */
+  .sec4{
+    position:relative;
+    height:320vh
+  }
+
+  .class-block1-box{
+    width:70%;
+    position:relative;
+    left:12%;
+    height:90vh;
+    margin-right:auto;
+  
+  }
+
+  .class-block2-title{
+    color:#8d8d8d;
+    text-align:center;
+    padding-top:20px;
+    margin-bottom:40px
+  }
+
+  .class-block2-box{
+    position:absolute;
+    width:70%;
+    height:300vh;
+    top:10%;
+    left:12%
+  }
+
+  .class-block2-innerbox{
+    width:80%;
+    position:absolute;
+    left:10%;
+    top:1%;
+    
+  }
+
+  .sec4-section-title{
+    text-align:left;
+    margin-bottom:40px
+  }
+
+  .class-type-box{
+    position:absolute;
+    
+  }
+
+  .class-type-row{
+    height:100vh;
+    
+  }
+  
+  .class-type-row-1{
+    margin-bottom:20px
+  }
+
+  .class-whitebg{
+    padding:0px 20px;
+    top:-100px; 
+    height:100%
+  }
+
+
+    /* section5 */
+  .sec5{
+    height:210vh
+  }
+
+  .sec5-title-row{
+    height:15vh;
+    width:75%;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-all-box{
+    height:100%;
+    width:100%;
+    position:relative;
+  }
+
+  .info-row{
+    height:170vh;
+    width:100%;
+    position:relative;
+    top:5%;
+    left:3vh
+  
+
+  }
+
+  .info-box{
+    position:absolute;
+    width:90%;
+    margin-bottom:30px
+  
+  }
+
+  .info-img{
+    width:90%;
+    margin-bottom:20px;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  .info-text{
+    line-height:2em;
+    width:90%;
+    margin-right:auto;
+    margin-left:auto
+  }
+
+  /* footer */
+  .footer-bg{
+    background-color:#ffd1ab; 
+    height: 60px; 
+    position:relative;
+    bottom:0px;
+  }
+
+  .footer-img{
+    width:12%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top:10px
+
+  }
+  
+  
+}
+
+
+
+
+
+
+
