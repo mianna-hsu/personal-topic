@@ -20,10 +20,16 @@ p{
   color:#6e5745;
   font-weight:bold;
   padding: 20px 0px;
-  border-bottom: solid 2px #ffc08d;
   text-align: center
 
 }
+
+.section-divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #ffc08d;
+}
+
 
 .section-bg-orange{
   width: 100%;
@@ -121,6 +127,22 @@ p{
   text-align:right;
   
 }
+
+
+
+/* 0131新增 */
+.sec2-block2{
+  width:90%;
+  padding:8vw 5vw;
+  /* position:absolute; */
+  /* top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) */
+}
+
+
+
+
 
 
 
@@ -1294,3 +1316,23 @@ p{
 
 
 
+
+
+
+.card {
+  border: none;
+}
+
+.item>img {
+  width: 100px;
+  height: 100px;
+}
+
+.bg-opacity-white-test{
+  height:100%;
+  width: 80%;
+  background-color: rgba(255,255,255,0.5);
+  /* margin:0px;
+  padding:0px */
+
+}
